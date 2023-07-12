@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1112px;
+    height: 640px;
+    margin: 0 auto;
+}
+
+aside {
+    display: flex;
+}
+
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 13px;
+    background-color: hsl(213, 44%, 95%);
+}
+
+/* #contenedor1 {
+    display: grid;
+    place-items: center;
+} */
+
+h2 {
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+p {
+    font-weight: 500;
+}
+
+#primera-sec {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#segunda-sec {
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+/*tarjetas*/
+#card-violet-daniel {
+    display: flex;
+    background-color: hsl(263, 55%, 52%);
+    border-radius: 9px;
+    padding: 30px;
+    margin-bottom: 20px;
+    width: 40vw;
+    height: 25%;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    background-position: 90% 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: url(/Sprint-1/TESTIMONIALS/imágenes/bg-pattern-quotation.svg)
+}
+
+#card-jonathan {
+    display: flex;
+    background-color: hsl(217, 19%, 35%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 9px;
+    padding: 30px;
+    height: 25%;
+    width: 18vw;
+    margin-top: 20px;
+
+}
+
+#card-jeanette {
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 9px;
+    padding: 30px;
+    width: 18vw;
+    height: 25%;
+    margin-right: 5px;
+}
+
+#card-patrick {
+    display: flex;
+    background-color: hsl(219, 29%, 14%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 9px;
+    padding: 30px;
+    width: 40vw;
+    height: 20%;
+}
+
+#card-kira {
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 9px;
+    padding: 30px;
+    width: 17vw;
+    height: 94%;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+
+img {
+    border-radius: 50%;
+}
+
+/*imagenes*/
+.daniel {
+    border: 2px solid white;
+
+}
+
+.jonathan {
+    border: 2px solid white;
+}
+
+.patrick {
+    border: 2px solid purple;
+}
+
+
+ul {
+    list-style: none;
+    z-index: 2;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+.contenedor {
+    display: flex;
+}
+
+
+/* tarjetas de daniel,jonathan, patrick*/
+.gray {
+    color: hsl(197, 100%, 99%);
+
+}
+
+.verificado-gray {
+    color: hsl(0 0% 81% /.50);
+}
+
+.text-revision {
+    color: hsl(0 0% 81% /.70);
+}
+
+/*tarjetas de jeannete & kira*/
+
+.text-name {
+    color: hsl(215, 7%, 34%);
+}
+
+.verified {
+    color: hsl(215 7% 34% /.50);
+}
+
+.text {
+    color: hsl(217, 14%, 33%);
+}
+
+.parrafo-revision {
+    color: hsl(210, 4%, 74%);
+}

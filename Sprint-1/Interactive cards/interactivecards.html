@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Interactive cards/CSS/main.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <main>
+      <section>
+        <div id="container-right">
+          <form action="results.html">
+            <div>
+              <div id="card-name">
+                <label for="cardholdername">CARDHOLDER NAME</label>
+                <input type="text" id="name" placeholder="e.g. Jane Appleseed" />
+              </div>
+
+              <div id="card-number">
+                <label for="cardnumber">CARD NUMBER</label>
+                <input type="password" id="number-srch" placeholder="e.g. 1234 5678 9123 0000" />
+              </div>
+
+              <div id="card-information">
+                <div id="card-details">
+                  
+                  <label for="exp.date" id="expiration-dates">EXP. DATE (MM/YY) </label> 
+                  <input type="text" id="mm" placeholder="MM" />
+                  <input type="text" id="yy" placeholder="YY" />
+                  
+                </div>
+
+                <div id="card-cvc">
+                  <label for="cvc">CVC</label>
+                  <input type="text" id="cvc" placeholder="e.g. 123" />
+                </div>
+               
+              </div> 
+              <button><span>Confirm</span></button>
+            </div>
+          </form>
+        </div>
+
+      </section>
+
+    </main>
+
+    <section id="container-left">
+      <div id="cards">
+        <div class="card-front">
+          <img
+            src="../Interactive cards/images/bg-card-front.png"
+            alt="card front"
+          />
+          <div id="front-container">
+            <img class="card-logo"  src="../Interactive cards/images/card-logo.svg" alt="card-logo">
+            <h1 id="numero">0000 0000 0000 0000</h1>
+            <div id="card-extra-details">
+              <span>JANE APPLESIED</span>
+              <span>
+                <span> 00 </span>
+                /
+                <span>00</span>
+              </span>
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="card-back">
+          <img
+            src="../Interactive cards/images/bg-card-back.png"
+            alt="card back"
+          />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
